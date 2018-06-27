@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.minebayrakdar.hw2.MainActivity"
+    android:orientation="vertical">
+
+
+    <EditText
+        android:id="@+id/edtMail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Email"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="16dp"
+        android:layout_marginBottom="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <EditText
+        android:id="@+id/edtPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Password (optional)"
+        android:textColor="#6D13EB"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="85dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/btnSignin"
+        android:layout_width="163dp"
+        android:layout_height="60dp"
+        android:background="@color/colorAccent"
+        android:textColor="#fff"
+        android:text="Sign in"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="171dp"
+        android:layout_marginLeft="12dp"/>
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="161dp"
+        android:layout_height="60dp"
+        android:background="@android:color/holo_orange_dark"
+        android:textColor="#fff"
+        android:text="Register"
+        tools:layout_editor_absoluteX="197dp"
+        tools:layout_editor_absoluteY="174dp"
+        android:layout_marginLeft="10dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

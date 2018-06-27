@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.minebayrakdar.hw2.ImplicitIntents"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/edtOpenWebsite"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="5dp"/>
+
+    <Button
+        android:id="@+id/btnOpenWebSite"
+        android:layout_width="match_parent"
+        android:text="Open Website"
+        android:layout_height="40dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="#fff"
+        android:background="@color/colorPrimaryDark" />
+
+    <EditText
+        android:id="@+id/edtOpenLocation"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginBottom="5dp"/>
+
+    <Button
+        android:id="@+id/btnOpenLocation"
+        android:layout_width="match_parent"
+        android:text="Open Location"
+        android:layout_height="40dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="#fff"
+        android:background="@color/colorPrimaryDark"/>
+
+    <EditText
+        android:id="@+id/edtShare"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginBottom="5dp"/>
+
+    <Button
+        android:id="@+id/btnShare"
+        android:layout_width="match_parent"
+        android:text="Share This Text"
+        android:layout_height="40dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="#fff"
+        android:background="@color/colorPrimaryDark"/>
+</LinearLayout>

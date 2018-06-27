@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:id="@+id/txtPls"
+        android:layout_width="match_parent"
+        android:layout_height="43dp"
+        android:layout_gravity="center"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="PLEASE REGISTER"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:layout_marginBottom="30dp"
+        android:textSize="25dp" />
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:hint="Name"
+        android:textColor="#6D13EB"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/edtAge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number"
+        android:hint="Age"
+        android:textColor="#6D13EB"
+        android:layout_marginBottom="20dp" />
+
+    <EditText
+        android:id="@+id/edtMailRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textEmailAddress"
+        android:hint="Email"
+        android:textColor="#6D13EB"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/edtPasswordRegister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Password (optional)"
+        android:textColor="#6D13EB"
+        android:layout_marginBottom="30dp" />
+
+    <Button
+        android:id="@+id/Registerbtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_orange_light"
+        android:text="Register"
+        android:textColor="#fff" />
+</LinearLayout>
